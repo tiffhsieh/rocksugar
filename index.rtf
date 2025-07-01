@@ -8,8 +8,8 @@
 \f0\fs24 \cf0 const express = require('express');\
 const app = express();\
 \
-app.get('/', (req, res) => \{\
-  res.send('Hello from Version 1!');\
+app.get('/version', (req, res) => \{\
+  res.send('This is Version 2 of Rocksugar!');\
 \});\
 \
 app.listen(3000, () => \{\
